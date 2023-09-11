@@ -10,5 +10,5 @@ CREATE TABLE `{{.Table}}` (
 	{{$col.GetName}} {{$col.GetType}} {{$col.GetNull}} {{$col.GetDefault}},
 	{{- end }}
 	{{- end }}
-)
+);
 {{- end}}
